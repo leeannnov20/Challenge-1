@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 940px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu{
+    width: 280px;
+    margin-left: 400px;
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.menu li{
+    width: 92px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 16;
+    color: #3F5D45;
+    font-family: PingFang TC;
+    font-weight: semibold;
+}
+
+.cart {
+    margin-left: 19px;
+}
+
+.banner {
+    margin-bottom: 60px;
+}
+
+.main {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside {
+    width: 300px;
+}
+
+.aside li {
+    border: #EAF0ED 1px solid;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 16px 24px;
+    font-family: PingFang TC;
+}
+
+.title {
+    background-color: #3F5D45;
+    color: #EAF0ED;
+
+}
+
+.highlight {
+    background-color: #EAF0ED;
+}
+
+.aside a{
+    display: block;
+    text-decoration: none;
+    color: #3F5D45;
+    
+}
+
+.productCards {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    
+}
+
+.card {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cardInfo {
+    display: flex;
+}
+
+.card img{
+    vertical-align: middle;
+    
+}
+
+.card {
+    position: relative;
+}
+
+.like img{
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    z-index: 5;
+}
+
+.select p{
+    box-sizing: border-box;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background: #3F5D45;
+    color: #EAF0ED;
+    display: flex;
+    flex-wrap; wrap;
+    width: 36px;
+    height: 106px;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 10px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 20px;
+    color: #3F5D45;
+    font-family: PingFang TC;
+    font-weight: light;
+    padding: 18px 33px;
+    border: 1px solid #EAF0ED;
+}
+
+span {
+    font-size: 20px;
+    color: #3F5D45;
+    font-family: PingFang TC;
+    font-weight: semibold;
+    padding: 18px 20px 18px 27px;
+    border: 1px solid #EAF0ED;
+}
+
+.card a {
+    display: block;
+    text-decoration: none;
+    border:1px solid #EAF0ED;
+    color: #3F5D45;
+    background-color: #EAF0ED;
+
+}
+
+.pages {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+.pages ul{
+    display: flex;
+}
+
+.pages li {
+    border: 1px solid #EAF0ED;
+}
+
+.arrow img {
+    width: 24px;
+    height: 24px;
+    padding: 18px 18px;
+    vertical-align: middle;
+
+}
+
+.pages {
+    width: 940px;
+}
+
+.pages a {
+    display: block;
+    font-size: 20px;   
+    color: #3F5D45; 
+    font-family: PingFang TC;
+    font-weight: light;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pages .greenbox h4{
+    background-color: #3F5D45 ;
+    color: #EAF0ED;
+    
+}
+
+.pages h4 {
+    font-size: 20px;
+    color: #3F5D45;
+    padding: 20px 26px;
+    
+}
